@@ -109,7 +109,10 @@
       "date-fns": "2.30.0",
       "date-fns-tz": "2.0.0",
       "form-data": "4.0.4",
-      "tmp": "0.2.4"
+      "tmp": "0.2.4",
+      "@lezer/common": "1.2.1",
+    "@lezer/lr": "1.4.0",
+    "ts-essentials": "10.0.2"
     },
     "patchedDependencies": {
       "bull@4.16.4": "patches/bull@4.16.4.patch",
