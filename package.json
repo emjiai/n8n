@@ -47,12 +47,7 @@
     "test:show:report": "pnpm --filter=n8n-playwright exec playwright show-report",
     "watch": "turbo run watch --concurrency=30",
     "webhook": "./packages/cli/bin/n8n webhook",
-    "worker": "./packages/cli/bin/n8n worker",
-     "@lezer/common": "^1.2.0",
-     "@codemirror/autocomplete": "^6.0.0",
-     "@codemirror/language": "^6.0.0",
-     "@lezer/highlight": "^1.0.0",
-     "@lezer/lr": "^1.0.0"
+    "worker": "./packages/cli/bin/n8n worker"
   },
   "devDependencies": {
     "@biomejs/biome": "^1.9.0",
@@ -123,10 +118,8 @@
       "bull@4.16.4": "patches/bull@4.16.4.patch",
       "pdfjs-dist@5.3.31": "patches/pdfjs-dist@5.3.31.patch",
       "pkce-challenge@5.0.0": "patches/pkce-challenge@5.0.0.patch",
-      "@types/express-serve-static-core@5.0.6": "patches/@types__express-serve-static-core@5.0.6.patch",
       "@types/ws@8.18.1": "patches/@types__ws@8.18.1.patch",
       "@types/uuencode@0.0.3": "patches/@types__uuencode@0.0.3.patch",
-      "vue-tsc@2.2.8": "patches/vue-tsc@2.2.8.patch",
       "element-plus@2.4.3": "patches/element-plus@2.4.3.patch",
       "js-base64": "patches/js-base64.patch",
       "ics": "patches/ics.patch",
