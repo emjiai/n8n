@@ -47,7 +47,12 @@
     "test:show:report": "pnpm --filter=n8n-playwright exec playwright show-report",
     "watch": "turbo run watch --concurrency=30",
     "webhook": "./packages/cli/bin/n8n webhook",
-    "worker": "./packages/cli/bin/n8n worker"
+    "worker": "./packages/cli/bin/n8n worker",
+     "@lezer/common": "^1.2.0",
+     "@codemirror/autocomplete": "^6.0.0",
+     "@codemirror/language": "^6.0.0",
+     "@lezer/highlight": "^1.0.0",
+     "@lezer/lr": "^1.0.0"
   },
   "devDependencies": {
     "@biomejs/biome": "^1.9.0",
