@@ -73,7 +73,7 @@ export const getParser = (dialect: Dialect) => {
 	});
 
 	const mixedParser = expressionParser.configure({
-		wrap: parseMixed((node) => {
+		wrap: parseMixed((node: any) => {
 			return node.type.isTop
 				? {
 						parser: sqlLanguage.parser,
